@@ -67,6 +67,7 @@ Each skill is:
 
 # Installation
 
+## 1. Claude CLI
 ## Global install
 
 ```bash
@@ -98,7 +99,34 @@ You can also explicitly invoke one:
 ```bash
 Use the Problem Clarity Engine.
 ```
-## Examples
+
+## 2. Other Claude Interfaces (Web, Desktop, API)
+
+Automatic skill loading is currently **limited to Claude Code environments**.
+
+However, these skills can still be used manually in any Claude interface.
+
+### Manual usage
+
+1. Open the desired skill file from:
+
+```bash
+claude/skills/
+```
+2. Copy the full contents of the skill.
+3. Paste it into Claude, then ask your question below it.
+
+### Example
+```bash
+[Paste the "Problem Clarity Engine" skill here]
+
+Evaluate this startup idea: AI meeting note summarizer.
+```
+
+Claude will follow the same **structured reasoning and output format** defined in the skill.
+
+
+## All Examples
 
 See realistic product scenarios in:
 
