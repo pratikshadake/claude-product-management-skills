@@ -129,10 +129,7 @@ You can also explicitly invoke one:
 Use the Problem Clarity Engine.
 ```
 
-Or invoke them using 
-```bash /skills
-```
-on CLI 
+Or invoke them using  /skills on CLI 
 
 ## 2. Other Claude Interfaces (Web, Desktop, API)
 
