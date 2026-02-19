@@ -1,4 +1,9 @@
-# Skill: Problem Clarity Engine
+---
+name: problem-clarity
+description: "Evaluates whether a proposed idea addresses a genuine user problem worth solving. Use when assessing new feature ideas, startup concepts, or vague user complaints to determine if the pain justifies building a solution."
+---
+
+# Problem Clarity Engine
 
 ## Purpose
 Determine whether a proposed idea represents a real, meaningful user problem
@@ -28,3 +33,5 @@ High / Medium / Low
 ### Verdict
 Worth Solving / Not Worth Solving
 
+## References
+See [worked example](references/example.md) for a complete scenario.

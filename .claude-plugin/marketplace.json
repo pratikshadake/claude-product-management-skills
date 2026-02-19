@@ -1,0 +1,43 @@
+{
+  "plugins": [
+    {
+      "name": "pm-problem-discovery",
+      "description": "Problem discovery skills for evaluating ideas, defining outcomes, mapping assumptions, and extracting jobs-to-be-done.",
+      "skills": [
+        "skills/problem-clarity",
+        "skills/outcome-definition",
+        "skills/assumption-mapper",
+        "skills/jtbd-extractor"
+      ]
+    },
+    {
+      "name": "pm-prioritization-strategy",
+      "description": "Prioritization and strategy skills for scoring features, choosing user segments, articulating tradeoffs, and reality-checking roadmaps.",
+      "skills": [
+        "skills/value-vs-effort",
+        "skills/user-segment-prioritizer",
+        "skills/tradeoff-articulator",
+        "skills/roadmap-reality-checker"
+      ]
+    },
+    {
+      "name": "pm-validation-learning",
+      "description": "Validation and learning skills for designing experiments, analyzing feature adoption, and diagnosing retention drops.",
+      "skills": [
+        "skills/experiment-design",
+        "skills/feature-adoption-analyzer",
+        "skills/retention-drop-diagnoser"
+      ]
+    },
+    {
+      "name": "pm-delivery-launch",
+      "description": "Delivery and launch skills for critiquing PRDs, checking stakeholder alignment, auditing launch readiness, and capturing post-launch learnings.",
+      "skills": [
+        "skills/prd-critic",
+        "skills/stakeholder-alignment-checker",
+        "skills/launch-readiness",
+        "skills/post-launch-learning"
+      ]
+    }
+  ]
+}
