@@ -13,17 +13,9 @@ This project helps you **decide what is worth building at all**.
 
 ## Installation
 
-Install skill packs via the plugin marketplace:
-
 ```bash
-# Install all PM skills
-/plugin install pm-problem-discovery
-/plugin install pm-prioritization-strategy
-/plugin install pm-validation-learning
-/plugin install pm-delivery-launch
+npx add-skill pratikshadake/claude-product-management-skills
 ```
-
-Or install individual packs based on your needs.
 
 ## Skills Catalog
 
@@ -84,9 +76,9 @@ Claude will apply the appropriate PM skill automatically. You can also invoke a 
 Use the Problem Clarity Engine on this idea: AI meeting note summarizer.
 ```
 
-## Agent Skills Spec
+## Structure
 
-This repository follows the [agent skills specification](https://github.com/anthropics/agent-skills) for Claude Code. Each skill is defined as a `SKILL.md` with YAML frontmatter in its own directory under `skills/`, with reference examples in `references/`. The `.claude-plugin/marketplace.json` manifest groups skills into installable plugin packs.
+This repository follows the [agent skills](https://github.com/vercel-labs/skills) open standard. Each skill is defined as a `SKILL.md` with YAML frontmatter in its own directory under `skills/`, with worked examples in `references/`. Compatible with Claude Code, Cursor, Cline, and 35+ other AI agents.
 
 ## License
 
