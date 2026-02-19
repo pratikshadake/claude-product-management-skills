@@ -68,19 +68,48 @@ Each skill is:
 # Installation
 
 ## 1. Claude CLI
-## Global install
+
+
+Install all Claude PM skills in **one command**:
 
 ```bash
-git clone https://github.com/<your-username>/claude-pm-skills
-cp -r claude-pm-skills/.claude/skills ~/.claude/
+git clone https://github.com/<your-username>/claude-product-management-skills
+cd claude-product-management-skills
+./install.sh
 ```
+Then restart Claude CLI. The skills will be available on /skills
 
-Project-local install
+### Verify installation
+After restarting Claude CLI, run:
 ```bash
-cp -r .claude ./your-project/
+Use the Problem Clarity Engine on this idea:
+AI meeting note summarizer.
+```
+If Claude responds with structured sections like:
+
+Target User
+
+Core Problem
+
+Verdict
+
+…the installation worked correctly.
+
+Alternatively type /skills on CLI, you'll find the skills in the list
+
+## Uninstallation
+To remove all installed PM skills:
+```bash
+cd claude-product-management-skills
+./uninstall.sh
+```
+Then restart Claude CLI.
+
+All repo-installed skills will be removed from:
+```bash
+~/.claude/skills/
 ```
 
-Claude will automatically detect and use the PM skills.
 
 How to Use
 
@@ -99,6 +128,11 @@ You can also explicitly invoke one:
 ```bash
 Use the Problem Clarity Engine.
 ```
+
+Or invoke them using 
+```bash /skills
+```
+on CLI 
 
 ## 2. Other Claude Interfaces (Web, Desktop, API)
 
