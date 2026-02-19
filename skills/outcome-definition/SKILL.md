@@ -1,4 +1,9 @@
-# Skill: Outcome Definition Framework
+---
+name: outcome-definition
+description: "Shifts thinking from feature delivery to measurable user or business outcomes. Use before building a feature, during roadmap planning, or while defining success metrics to ensure work ties to real results."
+---
+
+# Outcome Definition Framework
 
 ## Purpose
 Shift thinking from feature delivery to measurable user or business outcomes.
@@ -24,3 +29,5 @@ Shift thinking from feature delivery to measurable user or business outcomes.
 ### Timeframe
 ### How Success Will Be Measured
 
+## References
+See [worked example](references/example.md) for a complete scenario.

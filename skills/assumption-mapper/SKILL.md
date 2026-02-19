@@ -1,4 +1,9 @@
-# Skill: Assumption Mapper
+---
+name: assumption-mapper
+description: "Exposes hidden risks by identifying and ranking assumptions across desirability, feasibility, and viability categories. Use when evaluating new products or features to surface the highest-risk assumption to test first."
+---
+
+# Assumption Mapper
 
 ## Purpose
 Expose hidden risks by identifying and ranking assumptions.
@@ -20,3 +25,5 @@ Expose hidden risks by identifying and ranking assumptions.
 ### Validation Method
 ### Decision Before Building
 
+## References
+See [worked example](references/example.md) for a complete scenario.
